@@ -1,6 +1,6 @@
 from flask import Blueprint
 
-bp = Blueprint("orders", __name__, url_prefix="")
+bp = Blueprint("orders", __name__)
 
 
 @bp.route("/")
