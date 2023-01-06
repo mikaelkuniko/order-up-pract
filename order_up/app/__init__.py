@@ -4,9 +4,7 @@ from .models import db, Employee   # New import
 from flask_login import LoginManager
 # from .routes import orders
 # from .routes.session import session_router
-from routes import orders_router, session_router
-
-
+from .routes import orders_router, session_router
 
 app = Flask(__name__)
 app.config.from_object(Configuration)

@@ -7,6 +7,9 @@
     {% endif %}
   </head>
   <body>
+    <form method="POST" action="{{ url_for('session.logout') }}">
+      <button>Log Out</button>
+    </form>
     {% block content %}{% endblock %}
   </body>
 </html>
